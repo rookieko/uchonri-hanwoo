@@ -60,5 +60,4 @@
     clearTimeout(timer);
     timer = setTimeout(() => toast.classList.remove('show'), 3500);
   });
-  document.getElementById('year').textContent = new Date().getFullYear();
 })();
